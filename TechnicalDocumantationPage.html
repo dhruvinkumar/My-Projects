@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documantation</title>
+    <link rel="stylesheet" href="TechnicalDocumantationPage.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul class="ul-sidebar">
+            <li><strong>Py Documantation</strong></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#syntax">Syntax</a></li>
+            <li><a href="#comments">Comments</a></li>
+            <li><a href="#variable">Variable</a></li>
+            <li><a href="#datatype">Data Tyeps</a></li>
+            <li><a href="#typecasting">Type Casting</a></li>
+            <li><a href="#string">String</a></li>
+            <li><a href="#boolean">Booleans</a></li>
+            <li><a href="#operator">Operators</a></li>
+            <li><a href="#list">Lists</a></li>
+            <li><a href="#is.else">If...Else</a></li>
+            <li><a href="#loops">Loops</a></li>
+            <li><a href="#array">Arrays</a></li>
+            <li><a href="#function">Function declaration</a></li>
+            <li><a href="#reference">Reference</a></li>
+        </ul>
+    </div>
+
+    <div class="contant">
+        <div id="introduction">
+        <h2 class="cont-head">Introduction</h2>
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+        <p>It is used for:</p>
+        <ul>
+            <li>web development (server-side)</li>
+            <li>software development</li>
+            <li>mathematics</li>
+            <li>system scripting</li>
+        </ul>
+      </div>
+
+        <div id="syntax">
+        <h2 class="cont-head">Syntax</h2>
+        <p> Python syntax can be executed by writing directly in the Command Line</p>
+        <div class="code">
+        <code>>>> print("Hello, World!") <br>
+            Hello, World!</code>
+     </div> 
+
+     <div class="code">
+            <code>if 5 > 2: <br>
+                print("Five is greater than two!")</code>
+                </div>
+         </div>
+
+        <div class="comments">
+        <h2 class="cont-head">Comments</h2>
+        <p>Comments can be used to explain Python code.</p>
+        <p>Comments can be used to make the code more readable.</p>
+        <p>Comments can be used to prevent execution when testing code.</p>
+        <p>Comments starts with a <span >#</span>, and Python will ignore
+            them:</p>
+            <div class="code">
+        <code>#This is a comment <br>
+            print("Hello, World!")</code>
+            </div>
+        </div>
+  
+        <div id="variable">
+        <h2 class="cont-head">Variables</h2>
+        <p>Python has no command for declaring a variable.</p>
+        <p>A variable is created the moment you first assign a value to it.</p>
+        <div class="code">
+        <code>x = 5  <br>
+            y = "John" <br>
+            print(x) <br>
+            print(y)</code>
+            </div>
+</div>
+
+        <div id="datatype">
+        <h2 class="cont-head">Data Types</h2>
+        <p>In programming, data type is an important concept.</p>
+        <p>Variables can store data of different types, and different types can do different things.</p>
+        <p>Python has the following data types built-in by default, in these categories:</p>
+
+        <p>Text Type:<span>str</span>
+        <p>Numeric Type:<span>int </span>, <span>float</span> ,<span>complex</span>
+        <p>Sequance Type <span>list,<span>tuple </span>,<span>range</span>
+            <p>MappingType <span>dict</span>
+            <p>Set Type <span>set </span>, <span>frozenset</span>
+            <p>Boolean Type <span>bool</span>
+            <p>Binary Types:<span>bytes</span>,<span>bytearray</span>,<span>memoryview
+            </span>
+        </div>
+
+        <div id="typecasting">
+            <h2 class="cont-head">Type Casting</h2>
+            <p>There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.</p>
+            <p>Casting in python is therefore done using constructor functions:</p>
+        <ul>
+            <li><span>int()</span>- constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
+            </li>
+            <li><span>float()</span>- constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)</li>
+            <li><span>str()</span> - constructs a string from a wide variety of data types, including strings, integer literals and float literals</li>
+        </ul>
+        <div class="code">
+        <code>x = int(1)   # x will be 1 <br>
+            y = int(2.8) # y will be 2 <br>
+            z = int("3") # z will be 3</code>
+            </div>
+         </div>
+
+         <div id="string">
+            <h2 class="cont-head">String</h2>
+            <p>Strings in python are surrounded by either single quotation marks, or double quotation marks.</p>
+            <p><span>'hello'</span> is the same as <span>"hello"</span>.</p>
+            <p>You can display a string literal with the <span>print()</span> function:</p>
+            <div class="code">
+            <code>print("Hello") <br>
+                print('Hello')</code>
+                </div>
+</div>
+
+          <div id="boolean">
+            <h2 class="cont-head">Booleans</h2>
+            <p>In programming you often need to know if an expression is <span>True</span> or <span>False</span>.</p>
+            <p>You can evaluate any expression in Python, and get one of two answers,<span>True</span> or <span>False</span>.</p>
+            <p>When you compare two values, the expression is evaluated and Python returns the Boolean answer:</p>
+              <div class="code">
+            <code>print(10 > 9) <br>
+                print(10 == 9) <br>
+                print(10 < 9)</code>
+                </div>
+</div>
+
+<div id="operator">
+            <h2 class="cont-head">Operators</h2>
+            <p>Operators are used to perform operations on variables and values.</p>
+            <p>In the example below, we use the <span>+</span> operator to add together two values:</p>
+            <div class="code">
+            <code>print(10 + 5)</code>
+            </div>
+</div>
+
+<div id="lsit">
+            <h2 class="cont-head">Lists</h2>
+            <p>Lists are used to store multiple items in a single variable.</p>
+            <p>Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.</p>
+            <p>Lists are created using square brackets:</p>
+            <div class="code">
+            <code>thislist = ["apple", "banana", "cherry"] <br>
+                print(thislist)</code>
+                </div>
+</div>
+
+<div id="if" class="else">
+            <h2 class="cont-head">If...Else</h2>
+            <p>Python supports the usual logical conditions from mathematics:</p>
+            <ul>
+                <li>Equals: <span>a==b</span> </li>
+                <li>Not Equals :<span>a!=b</span> </li>
+                <li>Less than: <span>a<b</span> </li>
+                <li>Less than or equal to: <span>a<=b</span> </li>
+                <li>Greater than: <span>a>b</span> </li>
+                <li>Greater than or equal to : <span>a>=b</span> </li>
+            </ul>
+            <div class="code">
+            <code>a = 33 <br>
+                b = 200 <br>
+                if b > a: <br>
+                  print("b is greater than a")</code>
+                  </div>
+</div>
+
+<div id="loops">
+            <h2 class="cont-head">Loops</h2>
+            <p>Python has two primitive loop commands:</p>
+            <ul>
+                <li><span>while</span> loops</li>
+                <li><span>for</span> loops</li>
+            </ul>
+            <p>With the while loop we can execute a set of statements as long as a condition is true.</p>
+            <div class="code">
+            <code>i = 1 <br>
+                while i < 6: <br>
+                  print(i) <br>
+                  i += 1</code>
+                </div>
+                  <p>With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+                  <code>fruits = ["apple", "banana", "cherry"] <br>
+                    for x in fruits: <br>
+                      print(x)</code>
+</div>
+
+<div id="array">
+            <h2 class="cont-head">Arrays</h2>
+            <p>An array is a special variable, which can hold more than one value at a time.</p>
+            <p>Arrays are used to store multiple values in one single variable:</p>
+            <div class="code">
+            <code>cars = ["Ford", "Volvo", "BMW"]</code>
+            </div>
+</div>
+
+<div id="function">
+            <h2 class="cont-head">Function declaration</h2>
+            <p>A function is a block of code which only runs when it is called.</p>
+            <p>You can pass data, known as parameters, into a function.</p>
+            <p>A function can return data as a result.</p>
+            <p>In Python a function is defined using the <span>def</span> keyword:</p>
+            <div class="code">
+            <code>def my_function(): <br>
+                print("Hello from a function")</code>
+                </div>
+</div>
+
+<div id="reference">
+            <h2 class="cont-head">Reference</h2>
+               <p>All the documentation in this page is taken from <a href="https://www.w3schools.com/python/python_functions.asp" target="_blank">w3schools</a></p>
+    </div>
+
+    </div>
+</body>
+
+</html>

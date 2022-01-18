@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+span{color: red;
+    background-color: gainsboro;
+}
+.ul-sidebar li{
+    list-style: none;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    
+}
+.ul-sidebar a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.ul-sidebar{
+    width: 100%;
+    padding: 0;
+   
+}
+.sidebar{
+    width: 20%;
+    background-color: rgb(240, 234, 234);
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+        border: 2px solid red;
+        height: 102.70vh;
+        text-align: center;
+        position: fixed;
+        overflow-x: hidden;
+        overflow-y: scroll;
+}
+
+.contant{
+    
+    width: 100%;
+   padding-left:22%;
+}
+.code{
+    background-color: rgb(238, 235, 235);
+    margin: 5px;
+    width: 90%;
+    padding: 10px;
+}
